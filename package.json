@@ -4,6 +4,8 @@
     "hardhat": "^2.22.15"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.1.0"
+    "@openzeppelin/contracts": "^5.1.0",
+    "npx": "^10.2.2",
+    "test": "^3.3.0"
   }
 }
