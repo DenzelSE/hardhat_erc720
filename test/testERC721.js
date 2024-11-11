@@ -7,11 +7,9 @@ describe("ContractERC721", function(){
        
         const ContractERC721 = await hre.ethers.getContractFactory("ContractERC721");
 
-        const ContractERC721Deployed = await ContractERC721.deploy("ContractERC721", "PTC");
+        const ContractERC721Deployed = await ContractERC721.deploy("Protocol", "PTC");
 
-        // await ContractERC721Deployed.deploy();
-
-        expect(await ContractERC721Deployed.name()).to.equal("ContractERC721");
+        expect(await ContractERC721Deployed.name()).to.equal("Protocol");
 
     });
 });
